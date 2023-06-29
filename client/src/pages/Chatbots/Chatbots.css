@@ -1,0 +1,100 @@
+.react-chatbot-kit-chat-container {
+    width:500px;
+    border: 2px solid black;
+  }
+  .react-chatbot-kit-chat-bot-message {
+    margin-left:0px !important;
+  }
+  
+  .chatbot-container-1{
+    justify-content: center !important;
+  }
+
+.chatbot{
+    max-width: 500px;
+    position: absolute;
+    top:20vh !important;
+    left:20vw !important;
+    
+    border-radius: 10px;
+    
+}
+@media screen and (max-width: 1500px) {
+
+    .chatbot{
+        max-width: 500px;
+        position: absolute;
+        top:10vh !important;
+        left:5vw !important;
+        
+        border-radius: 10px;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    .react-chatbot-kit-chat-container {
+        width:500px;
+      }
+    
+    .chatbot{
+        max-width: 500px;
+        position: absolute;
+        top:10vh !important;
+        left:10vw !important;
+        border-radius: 10px;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .react-chatbot-kit-chat-container {
+        width:500px;
+      }
+    
+    .chatbot{
+        max-width: 500px;
+        position: absolute;
+        top:10vh !important;
+        left:20vw !important;
+        border-radius: 10px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .react-chatbot-kit-chat-container {
+        width:450px;
+      }
+    .chatbot{
+        max-width: 450px;
+        position: absolute;
+        top:10vh !important;
+        left:5vw !important;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+}
+.react-chatbot-kit-chat-inner-container {
+background-image:url("../../assets/background.jpg") !important;
+background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover !important;
+}
+.react-chatbot-kit-chat-header {
+    background-color: #128C7E !important;
+    color:white;
+    height:5%;
+}
+
+.react-chatbot-kit-chat-btn-send {
+    background-color:#128C7E !important ;
+    border-radius: 50%;
+    height:50px !important;
+    width:50px !important;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.react-chatbot-kit-chat-input {
+    border-radius: 10px;
+    margin:10px;
+    height:20px;
+}

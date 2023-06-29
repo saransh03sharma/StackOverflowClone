@@ -1,0 +1,60 @@
+.mycard{
+    min-height:100vh;
+    margin:0% auto;
+    background-color: #f1f2f3;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.mycard-container{
+    width:60%;
+    height:350px;
+    padding:20px;
+    background-color: white;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    box-shadow: 0 10px 25px rgba(0 0 0 / 5%),
+    0 20px 48px rgba(0 0 0 / 5%),
+    0 1px 4px rgba(0 0 0 / 10%);
+
+}
+
+.mycard-container input{
+    padding:10px;
+    width:calc( 100% - 30px );
+    border:solid 1px #0000003e;
+    font-size: 13px;
+}
+.send-btn{
+    margin:10px;
+    padding:10px 5px;
+    background-color: #009bff;
+    border: solid 1px #009dff;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    transition: 0.2s;
+    font-size: 13px;
+    font-weight:500;
+}
+.send-btn:hover{
+    background-color: #018ce3;
+}
+
+.otp-btn{
+    margin:10px;
+    padding:10px 5px;
+    background-color: #009bff;
+    border: solid 1px #009dff;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    transition: 0.2s;
+    font-size: 13px;
+    font-weight:500;
+}
+.otp-btn:hover{
+    background-color: #018ce3;
+}
